@@ -1,0 +1,21 @@
+.main-page__wrapper {
+  padding: 60px 0;
+}
+
+.calendar-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.result {
+  font-size: 22px;
+  font-style: oblique;
+}
+
+@media(max-width: 440px) {
+  .calendar-wrapper {
+    flex-direction: column;
+    gap: 20px;
+  }
+}

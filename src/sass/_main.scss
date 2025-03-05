@@ -1,0 +1,38 @@
+html {
+  height: 100%;
+}
+
+body {
+  background-image: url('../images/calendar.jpg');
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+main {
+  flex-grow: 1;
+}
+footer {
+  margin-top: auto;
+  
+}
+
+@media(max-width: 1440px) {
+  .wrapper {
+    width: 940px;
+    margin: 0 auto;
+  }
+}
+
+@media(max-width: 760px) {
+  .wrapper {
+    width: 660px;
+    margin: 0 auto;
+  }
+}
+
+@media(max-width: 440px) {
+  .wrapper {
+    width: 340px;
+    margin: 0 auto;
+  }
+}

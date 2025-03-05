@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="images/favicons/favicon-96x96.png" sizes="96x96"/>
+  <link rel="icon" type="image/svg+xml" href="images/favicons/favicon.svg" />
+  <link rel="shortcut-icon" href="images/favicons/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="images/favicons/apple-touch-icon.png"/>
+  <link rel="manifest" href="images/favicons/site.webmanifest"/>  
+  <title>Calendar</title>
+ 
+</head>
+<body>
+  <header class="header">
+    <div class="header__wrapper wrapper">
+      <h1 class="header__title">
+        Здесь вы можете посчитать разницу дат в днях
+      </h1>
+      
+    </div>
+  </header>
+  <main class="main-page">    
+    <div class="main-page__wrapper wrapper">
+      <div class="buttons-calendars">
+        <button class="button-icon button-prev" id="prev">
+          <svg class="icon icon-prev">
+            <use xlink:href="images/sprite.svg#arrow"></use>
+          </svg>
+        </button>
+        <button class="button-icon button-next" id="next">
+          <svg class="icon icon-next">
+            <use xlink:href="images/sprite.svg#arrow"></use>
+          </svg>
+        </button>
+      </div>
+      <div class="calendar-wrapper">
+        <div id="calendar1"></div>
+        <div id="calendar2"></div>
+      </div>
+      
+      <button class="button button__result" id="reset-result">Рассчитать снова</button>
+      <p class="result" id="result">Здесь отображается разница дат в днях:</p>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="footer__wrapper wrapper">
+      <p class="autor">
+        <cite>
+          &#169;Prokofyeva Maria
+        </cite>
+      </p>
+    </div>
+  </footer>
+  
+</body>
+</html>

@@ -1,0 +1,41 @@
+.buttons-calendars {
+  margin-bottom: 25px;
+}
+.button-icon {
+  border: none;
+  background-color: transparent;
+}
+.icon {
+  width: 15px;
+  height: 25px;
+  fill: rgb(156, 156, 238);
+  &:hover {
+      fill: darkblue;
+  }  
+  &:active {
+    fill: green;
+  }
+}
+.icon-prev {
+  transform: rotate(180deg);
+}
+
+.button__result {
+  box-sizing: border-box;
+  font-size: 22px;
+  background-color: lightblue;
+  border: none;
+  padding: 10px 15px;
+  transition: all 0.5s ease-in-out;
+  margin-bottom: 40px;
+
+  &:hover {
+    background-color: rgb(135, 135, 204);
+    transform: scale(1.05);
+  }
+
+  &:active {
+    background-color: rgb(214, 214, 241);
+    transform: scale(0.95);
+  }
+}
