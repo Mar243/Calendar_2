@@ -15,32 +15,37 @@
   <header class="header">
     <div class="header__wrapper wrapper">
       <h1 class="header__title">
-        Здесь вы можете посчитать разницу дат в днях
+        Разница дат
       </h1>
       
     </div>
   </header>
   <main class="main-page">    
     <div class="main-page__wrapper wrapper">
-      <div class="buttons-calendars">
-        <button class="button-icon button-prev" id="prev">
-          <svg class="icon icon-prev">
-            <use xlink:href="images/sprite.svg#arrow"></use>
-          </svg>
-        </button>
-        <button class="button-icon button-next" id="next">
-          <svg class="icon icon-next">
-            <use xlink:href="images/sprite.svg#arrow"></use>
-          </svg>
-        </button>
+      <h2 class="main-page__title">Посчитать дни? Просто здесь!</h2>
+      <div class="content-container">
+        <div class="buttons-calendars">
+          <button class="button-icon button-prev" id="prev">
+            <svg class="icon icon-prev">
+              <use xlink:href="images/sprite.svg#arrow"></use>
+            </svg>
+          </button>
+          <button class="button-icon button-next" id="next">
+            <svg class="icon icon-next">
+              <use xlink:href="images/sprite.svg#arrow"></use>
+            </svg>
+          </button>
+        </div>
+        
+          <div class="calendar first-calendar" id="calendar1"></div>
+          <div class="calendar second-calendar" id="calendar2"></div>
+       
+          <p class="result">Разность дат:
+          <span id="result"></span>
+          </p>
+          <button class="button button__result" id="reset-result">Рассчитать снова</button>
+        
       </div>
-      <div class="calendar-wrapper">
-        <div id="calendar1"></div>
-        <div id="calendar2"></div>
-      </div>
-      
-      <button class="button button__result" id="reset-result">Рассчитать снова</button>
-      <p class="result" id="result">Здесь отображается разница дат в днях:</p>
     </div>
   </main>
   <footer class="footer">

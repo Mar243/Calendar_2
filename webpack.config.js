@@ -10,7 +10,7 @@ export default {
   output: {
     path: path.resolve('dist'),
     filename: '[name].[contenthash].js',
-    assetModuleFilename: 'assets/[name].[ext]',
+    assetModuleFilename: 'assets/[contenthash].[ext]',
     clean: true,
   },
 

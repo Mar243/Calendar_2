@@ -1,20 +1,57 @@
-.main-page__wrapper {
-  padding: 60px 0;
+.main-page {
+  background-image: url('../images/1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  
 }
 
-.calendar-wrapper {
-  display: flex;
-  justify-content: space-between;
+.main-page__wrapper {
+  padding: 80px 0;
+}
+.main-page__title {
+
+  text-align: center;
+  margin-bottom: 50px;
+  font-style: italic;
+  font-size: 24px;
+  color: rgba(8, 7, 7, 0.5);
+ 
+}
+
+.content-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 50px;
+}
+
+.first-calendar {
+  grid-column: 1 / 2;
+  justify-self: right;
+}
+
+.second-calendar {
+  grid-column: 2 / 3;
+}
+.calendar {
   margin-bottom: 30px;
 }
 
+
 .result {
-  font-size: 22px;
+  grid-column: 1 / 2;
+  justify-self: right;
+  font-weight: bolder;
+  font-size: 28px;
+  color: rgb(82, 52, 52);
   font-style: oblique;
+}
+#result {
+  justify-self: right;
 }
 
 @media(max-width: 440px) {
-  .calendar-wrapper {
+  .content-container {
+    display: flex;
     flex-direction: column;
     gap: 20px;
   }

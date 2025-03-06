@@ -9,16 +9,17 @@ thead td {
    font-weight: bold;
    text-align: center;
    border-collapse: collapse;
+   cursor: pointer;
  }
 
  .weekend {
-  background-color: red;
+  background-color: rgb(236, 52, 52, 0.5);
  }
  .current-day {
-  background-color: green;
+  background-color: rgb(3, 103, 3, 0.5);
  }
  .checked {
-  background-color: lightgreen;
+  background-color: rgb(108, 205, 108, 0.5);
  }
 
  

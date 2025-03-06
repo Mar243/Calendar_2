@@ -1,13 +1,17 @@
 .header {
-  background-color: rgb(168, 121, 212, 0.2)
-}
+  background-color: rgba(33, 33, 34, 0.5);
+  box-shadow: -1px 23px 24px -5px rgba(34, 60, 80, 0.6) inset;
+  }
+ 
+
 
 .header__wrapper {
-  padding: 40px 0;
+  padding: 30px 0;
 }
 
 .header__title {
   text-align: center;
-  font-size: 24px;
+  font-size: 34px;
   font-style: oblique;
+  color: rgba(23, 23, 23, 0.5);
 }

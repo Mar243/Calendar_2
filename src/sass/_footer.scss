@@ -1,5 +1,6 @@
 .footer {
-  background-color: rgb(168, 121, 212, 0.2);
+  background-color: rgba(33, 33, 34);
+  box-shadow: -1px 23px 24px -5px rgba(34, 60, 80, 0.6) inset;
 }
 
 .footer__wrapper {
@@ -8,4 +9,5 @@
 
 .autor {
   text-align: right;
+  color: rgba(109, 107, 107, 0.5)
 }
