@@ -1,6 +1,10 @@
 .buttons-calendars {
-  justify-self: right;
-  margin-bottom: 15px;
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  justify-self: center;
+  align-self: center;
+  // justify-self: left;  
+  // margin-bottom: 15px;
 }
 .button-icon {
   border: none;
@@ -8,8 +12,8 @@
   cursor: pointer;
 }
 .icon {
-  width: 15px;
-  height: 25px;
+  width: 35px;
+  height: 45px;
   fill: rgb(21, 21, 22);
   &:hover {
       fill: rgb(139, 139, 142);
@@ -24,7 +28,8 @@
 
 
 .button__result {
-  grid-column: 2 / 3;
+  grid-column: 3 / 4;
+  justify-self: right;
   box-sizing: border-box;
   font-size: 22px;
   background-color: rgb(61, 64, 65);
@@ -47,5 +52,11 @@
     background-color: rgb(30, 30, 31);
     color: white;
     transform: scale(0.95);
+  }
+}
+
+@media (max-width: 440px) {
+  .buttons-calendars {
+    margin-right: auto;
   }
 }

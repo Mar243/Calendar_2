@@ -156,7 +156,7 @@ function getPrevMonth() {
     currentMonth--;
   }
    updateCalendar(currentYear, currentMonth, 'calendar1');
-   updateCalendar(currentYear, currentMonth + 1, 'calendar2');
+ 
 }
 
 function getNextMonth() {
@@ -168,7 +168,7 @@ function getNextMonth() {
   else {
     currentMonth++;
   }
-  updateCalendar(currentYear, currentMonth, 'calendar1');
+  
   updateCalendar(currentYear, currentMonth + 1, 'calendar2');
 }
 
